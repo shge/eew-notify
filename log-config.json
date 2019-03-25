@@ -1,0 +1,30 @@
+{
+  "appenders": [
+    {
+      "category": "[App]",
+      "type": "file",
+      "filename": "app.log"
+    },
+    {
+      "category": "[Tweet]",
+      "type": "file",
+      "filename": "app.log"
+    },
+    {
+      "category": "[File]",
+      "type": "file",
+      "filename": "app.log"
+    },
+    {
+      "category": "[Command]",
+      "type": "file",
+      "filename": "app.log"
+    },
+    {
+      "category": "[Error]",
+      "type": "file",
+      "filename": "app.log"
+    },
+    {"type": "console"}
+  ]
+}
